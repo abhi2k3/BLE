@@ -1,11 +1,10 @@
 #include<stdio.h>
+#include "count.h"
 int count;
-int glo();
+//int glo();
 static int counter;
 int func(){
     counter = counter + 1;
-    
-    count = count + 1;
     glo(count);
 }
 void main(){

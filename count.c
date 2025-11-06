@@ -1,6 +1,8 @@
+#include "count.h"
 #include<stdio.h>
 extern int count;
-int glo(int count){
+void glo(count){
 // printf("global : %d\n",count);
-return count;
+count = count + 1;
+
 }
