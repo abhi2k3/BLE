@@ -2,7 +2,7 @@
  void main ()
  {
     int ar[5][5]; 
-    int *p = &ar;
+    int (*p)[5][5] = &ar;
     printf("%d\n",p);
     p = p + 1;
     printf("%d\n",p); 

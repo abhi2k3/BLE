@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define size 3
+#define size 2
   void main (){
     int i ,j,k;
     int arr1[size][size], arr2[size][size], mul[size][size]={0};

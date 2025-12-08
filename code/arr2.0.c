@@ -1,14 +1,14 @@
 #include<stdio.h>
-// void fun(  char  *const p)
-//  {
-//     p[0]='T';
-//  }
  void main (){
-    add(5,15);
-    printf("%d",c);
+    int arr[5][2];
+    int i,j;
+    for ( i=0;i<5;i++){
+        for (j = 0;j < 2;j++){
+            printf("1-->%d\n",&arr[i][j]);
+            printf("2--->%d\n",&arr[0]);
+            printf("3---->%d\n",&arr[1]);
+
+        }
+    }
 }
- void add(int a ,int b){
-    int c = a+b;
-    return c;
- }
  
